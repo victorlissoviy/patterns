@@ -11,20 +11,20 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>Builder 1</module>
-    <module>Factory Method 2</module>
-    <module>Abstract Factory 3</module>
-    <module>Prototype 4</module>
-    <module>Singleton 5</module>
-    <module>Adapter 6</module>
-    <module>Bridge 7</module>
-    <module>Composite 8</module>
-    <module>Decorator 9</module>
-    <module>Facade 10</module>
-    <module>Flyweight 11</module>
-    <module>Proxy 12</module>
-    <module>Chain of Responsibility 13</module>
-    <module>Command 14</module>
+    <module>1 Builder</module>
+    <module>2 Factory Method</module>
+    <module>3 Abstract Factory</module>
+    <module>4 Prototype</module>
+    <module>5 Singleton</module>
+    <module>6 Adapter</module>
+    <module>7 Bridge</module>
+    <module>8 Composite</module>
+    <module>9 Decorator</module>
+    <module>10 Facade</module>
+    <module>11 Flyweight</module>
+    <module>12 Proxy</module>
+    <module>13 Chain of Responsibility</module>
+    <module>14 Command</module>
   </modules>
 
   <properties>
