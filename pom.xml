@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.pattern</groupId>
+  <artifactId>Pattern</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>Builder 1</module>
+    <module>Factory Method 2</module>
+    <module>Abstract Factory 3</module>
+    <module>Prototype 4</module>
+    <module>Singleton 5</module>
+    <module>Adapter 6</module>
+    <module>Bridge 7</module>
+    <module>Composite 8</module>
+    <module>Decorator 9</module>
+    <module>Facade 10</module>
+    <module>Flyweight 11</module>
+    <module>Proxy 12</module>
+    <module>Chain of Responsibility 13</module>
+    <module>Command 14</module>
+  </modules>
+
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <developers>
+    <developer>
+      <name>Victor</name>
+      <email>victor.lissoviy.93@gmail.com</email>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.24</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>3.1.2</version>
+        <dependencies>
+          <dependency>
+            <groupId>com.puppycrawl.tools</groupId>
+            <artifactId>checkstyle</artifactId>
+            <version>10.3</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-scm-plugin</artifactId>
+        <version>1.13.0</version>
+      </plugin>
+    </plugins>
+  </build>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jxr-plugin</artifactId>
+        <version>3.2.0</version>
+      </plugin>
+    </plugins>
+  </reporting>
+
+  <scm>
+    <connection>scm:git:git@github.com:victorlissoviy/patterns.git</connection>
+    <developerConnection>scm:git:git@github.com:victorlissoviy/patterns.git</developerConnection>
+    <url>git@github.com:victorlissoviy/patterns.git</url>
+    <tag>main</tag>
+  </scm>
+
+</project>

@@ -1,0 +1,4 @@
+/**
+ * Printer package.
+ */
+package printer;
