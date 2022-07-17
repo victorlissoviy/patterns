@@ -15,6 +15,9 @@ public final class Salad {
    */
   private List<Vegetable> vegetables;
 
+  /**
+   * simple constructor.
+   */
   public Salad() {
     vegetables = new ArrayList<>();
   }

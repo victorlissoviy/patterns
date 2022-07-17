@@ -23,7 +23,7 @@ public class BoxCommand {
   }
 
   /**
-   * Get amount
+   * Get amount.
    *
    * @return amount
    */
@@ -40,12 +40,22 @@ public class BoxCommand {
     this.amount = amountElements;
   }
 
+  /**
+   * get type elements in box.
+   *
+   * @return string type.
+   */
   public String getType() {
     return type;
   }
 
-  public void setType(String type) {
-    this.type = type;
+  /**
+   * Set new type elements in box.
+   *
+   * @param typeElement string type.
+   */
+  public void setType(final String typeElement) {
+    this.type = typeElement;
   }
 
   /**

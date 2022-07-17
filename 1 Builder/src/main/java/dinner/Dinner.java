@@ -1,6 +1,5 @@
 package dinner;
 
-import soup.ingredients.ISoup;
 import soup.ingredients.Soup;
 
 /**
