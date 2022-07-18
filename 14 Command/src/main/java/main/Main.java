@@ -23,6 +23,9 @@ public final class Main {
     Box box = new Box(0, "Cat");
     System.out.println(box);
     BoxCommand boxCommand = new BoxCommand();
+    final int magicNumber = 10;
+    boxCommand.setAmount(magicNumber);
+    boxCommand.setType("Cat");
     boxCommand.pack(box, Action.ADD);
     System.out.println(box);
 

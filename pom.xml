@@ -25,6 +25,7 @@
     <module>12 Proxy</module>
     <module>13 Chain of Responsibility</module>
     <module>14 Command</module>
+    <module>15 Interpreter</module>
   </modules>
 
   <properties>

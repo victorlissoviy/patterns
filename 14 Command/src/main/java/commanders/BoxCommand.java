@@ -66,14 +66,9 @@ public class BoxCommand {
    */
   public void pack(final Box box, final Action action) {
     switch (action) {
-      case ADD:
-        box.add(amount, type);
-        break;
-      case RETRIEVE:
-        box.retrieve(amount, type);
-        break;
-      default:
-        System.out.println("Error type action");
+      case ADD -> box.add(amount, type);
+      case RETRIEVE -> box.retrieve(amount, type);
+      default -> System.out.println("Error type action");
     }
   }
 }
