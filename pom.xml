@@ -26,6 +26,7 @@
     <module>13 Chain of Responsibility</module>
     <module>14 Command</module>
     <module>15 Interpreter</module>
+    <module>16 Iterator</module>
   </modules>
 
   <properties>
