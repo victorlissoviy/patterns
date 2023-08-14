@@ -27,6 +27,7 @@
     <module>14 Command</module>
     <module>15 Interpreter</module>
     <module>16 Iterator</module>
+    <module>17 Mediator</module>
   </modules>
 
   <properties>
@@ -72,15 +73,15 @@
     </plugins>
   </build>
 
-  <reporting>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jxr-plugin</artifactId>
-        <version>3.2.0</version>
-      </plugin>
-    </plugins>
-  </reporting>
+<!--  <reporting>-->
+<!--    <plugins>-->
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-jxr-plugin</artifactId>-->
+<!--        <version>3.3.0</version>-->
+<!--      </plugin>-->
+<!--    </plugins>-->
+<!--  </reporting>-->
 
   <scm>
     <connection>scm:git:git@github.com:victorlissoviy/patterns.git</connection>
