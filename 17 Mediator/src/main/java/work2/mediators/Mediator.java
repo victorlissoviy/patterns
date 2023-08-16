@@ -30,7 +30,7 @@ public class Mediator implements IMediator {
 
   private int getMostFreePrinter() {
     int index = -1;
-    int max = -1;//printerList.get(0).getFreePages();
+    int max = -1;
 
     for (int i = 0; i < printerList.size(); i++) {
       if (printerList.get(i).isEmpty()) {
