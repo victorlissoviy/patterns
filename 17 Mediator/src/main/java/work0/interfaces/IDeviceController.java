@@ -1,4 +1,4 @@
-package work1.interfaces;
+package work0.interfaces;
 
 public interface IDeviceController {
   void nextStepForTurnOn();

@@ -1,7 +1,9 @@
-package work1.devices;
+package work0.devices;
 
-import work1.enums.BatteryStatus;
+import lombok.Getter;
+import work0.enums.BatteryStatus;
 
+@Getter
 public class BatteryDevice {
   private BatteryStatus status;
 
@@ -11,10 +13,6 @@ public class BatteryDevice {
 
   public BatteryDevice(BatteryStatus status) {
     setStatus(status);
-  }
-
-  public BatteryStatus getStatus() {
-    return status;
   }
 
   public void setStatus(BatteryStatus status) {

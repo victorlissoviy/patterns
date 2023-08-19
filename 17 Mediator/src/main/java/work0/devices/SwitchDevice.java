@@ -1,7 +1,9 @@
-package work1.devices;
+package work0.devices;
 
-import work1.enums.SwitchStatus;
+import lombok.Getter;
+import work0.enums.SwitchStatus;
 
+@Getter
 public class SwitchDevice {
   private SwitchStatus status;
 
@@ -11,10 +13,6 @@ public class SwitchDevice {
 
   public SwitchDevice(SwitchStatus status) {
     setStatus(status);
-  }
-
-  public SwitchStatus getStatus() {
-    return status;
   }
 
   public void setStatus(SwitchStatus status) {

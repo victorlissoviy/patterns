@@ -1,7 +1,7 @@
-package work1.devices;
+package work0.devices;
 
-import work1.enums.BatteryStatus;
-import work1.enums.SwitchStatus;
+import work0.enums.BatteryStatus;
+import work0.enums.SwitchStatus;
 
 public class LampDevice {
 

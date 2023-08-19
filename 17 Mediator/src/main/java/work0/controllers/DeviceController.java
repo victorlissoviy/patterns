@@ -1,11 +1,11 @@
-package work1.controllers;
+package work0.controllers;
 
-import work1.devices.BatteryDevice;
-import work1.devices.LampDevice;
-import work1.devices.SwitchDevice;
-import work1.enums.BatteryStatus;
-import work1.enums.SwitchStatus;
-import work1.interfaces.IDeviceController;
+import work0.devices.BatteryDevice;
+import work0.devices.LampDevice;
+import work0.devices.SwitchDevice;
+import work0.enums.BatteryStatus;
+import work0.enums.SwitchStatus;
+import work0.interfaces.IDeviceController;
 
 public class DeviceController implements IDeviceController {
 

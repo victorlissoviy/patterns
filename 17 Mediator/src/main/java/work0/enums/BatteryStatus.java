@@ -1,4 +1,4 @@
-package work1.enums;
+package work0.enums;
 
 public enum BatteryStatus  {
   CHARGED, DISCHARGED

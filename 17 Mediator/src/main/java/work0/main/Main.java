@@ -1,10 +1,10 @@
-package work1.main;
+package work0.main;
 
-import work1.controllers.DeviceController;
-import work1.devices.BatteryDevice;
-import work1.devices.LampDevice;
-import work1.devices.SwitchDevice;
-import work1.interfaces.IDeviceController;
+import work0.controllers.DeviceController;
+import work0.devices.BatteryDevice;
+import work0.devices.LampDevice;
+import work0.devices.SwitchDevice;
+import work0.interfaces.IDeviceController;
 
 public class Main {
   public static void main(String[] args) {
