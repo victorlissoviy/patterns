@@ -30,6 +30,7 @@
     <module>17 Mediator</module>
     <module>18 Memento</module>
     <module>19 Observer</module>
+    <module>20 State</module>
   </modules>
 
   <properties>
