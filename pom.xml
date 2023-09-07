@@ -31,6 +31,7 @@
     <module>18 Memento</module>
     <module>19 Observer</module>
     <module>20 State</module>
+    <module>21 Strategy</module>
   </modules>
 
   <properties>
