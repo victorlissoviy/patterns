@@ -32,6 +32,7 @@
     <module>19 Observer</module>
     <module>20 State</module>
     <module>21 Strategy</module>
+    <module>22 Template</module>
   </modules>
 
   <properties>
