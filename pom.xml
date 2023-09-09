@@ -33,6 +33,7 @@
     <module>20 State</module>
     <module>21 Strategy</module>
     <module>22 Template</module>
+    <module>23 Visitor</module>
   </modules>
 
   <properties>
